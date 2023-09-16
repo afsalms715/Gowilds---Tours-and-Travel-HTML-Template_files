@@ -1,0 +1,81 @@
+.logo-white img {
+  max-width: 200px !important;
+
+}
+ul.menu-1 a
+{
+  color: #000 !important;
+}
+
+.nav-bg
+{
+  border-radius: 8px !important;
+  padding: 4px 17px !important;
+  margin: 4px 0px !important;
+}
+.green
+{
+  color:green;
+}
+.orange
+{
+  color:#fe5423;
+}
+.yellow
+{
+  color:#ff9b00;
+}
+
+.orange-btn
+
+{
+  background-color:#fe5423 !important;
+}
+
+
+#playButton
+{
+
+}
+.hero-image button
+{
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #fe5423;
+  padding: 5px 23px;
+  color: #fff;
+  border-radius: 24px;
+}
+
+
+
+.hithere {
+  -webkit-animation: hithere 1s ease infinite;
+  animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+.navbar-toggler
+{
+  background-color: #000 !important;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .hero-wrapper .single-slider {
+    padding: 127px 0 90px !important;
+  }
+
+  .logo-white img {
+    max-width: 148px !important;
+  }
+}
