@@ -34,6 +34,9 @@
       <!--====== Style css ======-->
       <link rel="stylesheet" href="./style.css">
       <link rel="stylesheet" href="./custome.css">
+      <!--testing-->
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    </head>
    <body data-new-gr-c-s-check-loaded="14.1038.0" data-gr-ext-installed="">
       <!-- Play/pause button with icons -->
@@ -155,8 +158,8 @@
                      </div>
                      </div> -->
                   <div class="slick-list draggable">
-                     <div class="slick-track" style="opacity: 1; width: 871px;">
-                        <div class="single-slider slick-slide slick-current slick-active" style="width: 871px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false" tabindex="0">
+                     <div class="slick-track" style="opacity: 1; width:95%;">
+                        <div class="single-slider slick-slide slick-current slick-active" style="width: 95%; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false" tabindex="0">
                            <div class="container-fluid">
                               <div class="row align-items-center">
                                  <div class="col-xl-6">
@@ -222,7 +225,46 @@
                   <!--=== Features Image Item ===-->
                   <!--=== Features Image Item ===-->
                   <div class="slick-list draggable">
-                     <div class="slick-track" style="opacity: 1; width: 4360px; transform: translate3d(-1744px, 0px, 0px);">
+                     <div class="slick-track slick-test" style="opacity: 1; width: 4360px; transform: translate3d(-1744px, 0px, 0px);">
+                        <div class="single-features-item mb-40 slick-slide slick-cloned" style="width: 406px;" data-slick-index="-5" id="" aria-hidden="true" tabindex="-1">
+                           <div class="img-holder">
+                              <img src="./feat-3.jpg" alt="Features Image">
+                              <div class="content">
+                                 <div class="text">
+                                    <h4 class="title">Jeep Safari</h4>
+                                    <a href="https://idigitalwave.com/Projects/zooho-2/#" class="icon-btn" tabindex="-1"><i class="far fa-arrow-right"></i></a>
+                                 </div>
+                                 <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="single-features-item mb-40 slick-slide slick-cloned" style="width: 406px;" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1">
+                           <div class="img-holder">
+                              <img src="./feat-3.jpg" alt="Features Image">
+                              <div class="content">
+                                 <div class="text">
+                                    <h4 class="title">Jeep Safari</h4>
+                                    <a href="https://idigitalwave.com/Projects/zooho-2/#" class="icon-btn" tabindex="-1"><i class="far fa-arrow-right"></i></a>
+                                 </div>
+                                 <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="single-features-item mb-40 slick-slide slick-cloned" style="width: 406px;" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1">
+                           <div class="img-holder">
+                              <img src="./feat-3.jpg" alt="Features Image">
+                              <div class="content">
+                                 <div class="text">
+                                    <h4 class="title">Jeep Safari</h4>
+                                    <a href="https://idigitalwave.com/Projects/zooho-2/#" class="icon-btn" tabindex="-1"><i class="far fa-arrow-right"></i></a>
+                                 </div>
+                                 <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                              </div>
+                           </div>
+                        </div>
+
                         <div class="single-features-item mb-40 slick-slide slick-cloned" style="width: 406px;" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1">
                            <div class="img-holder">
                               <img src="./feat-3.jpg" alt="Features Image">
@@ -977,7 +1019,7 @@
          </section>
          <!--====== End Features Section ======-->
          <!--====== Start CTA Section ======-->
-         <section class="cta-bg overlay bg_cover pt-140 pb-150" style="background-image: url(assets/images/bg/cta-bg.jpg);">
+         <section class="cta-bg overlay bg_cover pt-140 pb-150" style="background-image: url(./cta-bg.jpg);">
             <div class="container">
                <div class="row justify-content-center">
                   <div class="col-xl-8">
@@ -1327,7 +1369,7 @@
                   <!--=== Single Gallery Item ===-->
                   <!--=== Single Gallery Item ===-->
                   <div class="slick-list draggable">
-                     <div class="slick-track" style="opacity: 1; width: 6104px; transform: translate3d(-2180px, 0px, 0px);">
+                     <div class="slick-track slick-test" style="opacity: 1; width: 6104px; transform: translate3d(-2180px, 0px, 0px);">
                         <div class="single-gallery-item slick-slide slick-cloned" style="width: 406px;" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1">
                            <div class="gallery-img">
                               <img src="./gl-5.jpg" alt="Gallery Image">
@@ -1611,7 +1653,6 @@
       <!--====== Main js ======-->
       <script src="./theme.js"></script>
       <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
-      <script src="./jquery-3.6.0.min.js"></script>
       <script>
          $(document).ready(function() {
              // Get references to the play button and the audio element
@@ -1630,6 +1671,14 @@
                      playButton.text("Play");
                  }
              });
+
+             $('.slick-test').slick({
+                  slidesToShow:3,
+                  slidesToScroll: 1,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
+               });
+            
          });
       </script>
    </body>
